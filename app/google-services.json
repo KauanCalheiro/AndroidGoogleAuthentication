@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227962545934",
+    "project_id": "auth-d51d2",
+    "storage_bucket": "auth-d51d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227962545934:android:a2d60607a69f4b8650595f",
+        "android_client_info": {
+          "package_name": "com.example.googleauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYcuGyr1PCd0htgjMaTLPRvTs4p8ddhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

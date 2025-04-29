@@ -65,10 +65,22 @@ Para mais detalhes, consulte a [documentação oficial](https://firebase.google.
 
 ---
 
+#### 2.1 Criação de um projeto na Firebase 🆕
+
+1. Ao acessar o site do **Firebase**, vá em **Começar com um projeto do Firebase**.
+    ![alt text](firebase.png)
+2. Siga o passo a passo informado na plataforma e após concluir todos os tópicos, clique em **Conectar**.
+    ![alt text](firebase_1.png)
+3. Acessando novamente seu projeto no AndroidStudio verá a informação que está **Connected** ao seu projeto do **Firebase**.
+    ![alt text](firebase_2.png)
+
+---
+
 #### 3. Adicionar Firebase Authentication SDK 🛠️
 
 No arquivo **build.gradle (Module: app)**, inclua a dependência:
 ![alt text](image-4.png)
+![alt text](image-4_1.png)
 
 ---
 
@@ -79,11 +91,14 @@ No arquivo **build.gradle (Module: app)**, inclua a dependência:
     ```bash
     gradlew signingReport
     ```
+    ![alt text](gradle.png)
+    ![alt text](gradle_1.png)
+
 3. Copie o **SHA-1** exibido. Exemplo:
-    ```bash
-    SHA-1: AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90
-    ```
+
+    ![alt text](gradle_2.png)
 4. No console do Firebase, acesse **Project settings → App** e clique em **Add fingerprint**.
+![alt text](firebase_3.png)
 5. Cole o SHA-1 e **salve**.
 
 ---
@@ -94,6 +109,7 @@ No console do Firebase, acesse **Project settings → App** e clique em **google
 ![alt text](image-6.png)
 
 **Coloque**/**Substitua** o arquivo **google-services.json** na pasta **app/** do seu projeto Android.
+![alt text](projeto.png)
 
 ---
 
